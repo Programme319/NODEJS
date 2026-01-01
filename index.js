@@ -7,6 +7,7 @@ function logger(req){
     console.log(`${req.method}  ${req.url}  ${new Date()}`);
 }
 
+
 const HomePage = fs.readFileSync("./index.html", "utf-8"); //Home page as a variable string
 
 // routing using express
